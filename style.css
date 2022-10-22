@@ -1,0 +1,55 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Castoro&family=Raleway:wght@400;700&display=swap');
+
+/* main */
+
+* {
+   box-sizing: border-box;
+}
+
+body {
+   align-items: center;
+   background-color: #112530;
+   display: flex;
+   height: 100vh;
+   justify-content: center;
+   flex-direction: column;
+   font-family: 'Raleway', sans-serif;
+   margin: 0;
+   overflow: hidden;
+}
+
+.container {
+   width: 500px;
+}
+
+h3 {
+   color: #ECE9E4;
+   text-align: center;
+}
+
+textarea {
+   border: none;
+   display: block;
+   font-family: inherit;
+   font-size: 16px;
+   height: 100px;
+   margin: 0 0 20px;
+   padding: 10px;
+   width: 100%;
+}
+
+.tag {
+   background-color: #B56F3B;
+   border-radius: 50px;
+   color: #ECE9E4;
+   display: inline-block;
+   font-size: 14px;
+   margin: 0 5px 10px 0;
+   padding: 10px 20px;
+}
+
+.tag.highlight {
+   background-color: #2F4F5A;
+}
+
